@@ -15,24 +15,18 @@ body {
 h1, h3 {
 	text-align: center;
 	font-family: retroawesome;
-	/* color: rgb(214, 153, 182); */
 	color: rgb(192, 225, 96)
 }
 
 h4 {
 	font-family: retroawesome;
-	color: rgb(192, 225, 96)
+	color: rgb(192, 225, 96);
 }
 
-p, li {
+p {
 	text-align: center;
-	font-family: retroawesome;
+	font-family: comic;
 	color: rgb(132, 193, 146)
-}
-
-li {
-	margin-right: 50px;
-	list-style-position: inside;
 }
 
 hr {
@@ -75,11 +69,6 @@ hr {
 	width: 220px;
 	align-self: flex-end;
 	margin-right: 50px;
-}
-
-.logocontainer p {
-	font-family: comic;
-	color: rgb(132, 193, 146);
 }
 
 #logo {
