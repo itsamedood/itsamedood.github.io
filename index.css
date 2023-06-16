@@ -1,6 +1,6 @@
 @font-face {
 	font-family: retroawesome;
-	src: url('../assets/fonts/retro60-awesome.otf') format('opentype');
+	src: url('assets/fonts/retro60-awesome.otf') format('opentype');
 }
 
 body {
