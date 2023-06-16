@@ -37,6 +37,10 @@ pre {
 	padding: 2px 4px;
 }
 
+#lang {
+	width: 500px;
+}
+
 #logo {
 	width: 200px;
 	border-radius: 15px;
