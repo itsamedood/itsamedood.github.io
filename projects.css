@@ -1,0 +1,85 @@
+@font-face {
+	font-family: retroawesome;
+	src: url('assets/fonts/retro60-awesome.otf') format('opentype');
+}
+
+@font-face {
+	font-family: comic;
+	src: url('assets/fonts/hey_comic.ttf') format('truetype');
+}
+
+body {
+	background-color: rgb(46, 56, 63);
+}
+
+h1, h3 {
+	text-align: center;
+	font-family: retroawesome;
+	color: rgb(192, 225, 96)
+}
+
+hr {
+	border-color: rgb(82, 93, 93);
+}
+
+.builddoc {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.builddoc h4 {
+	font-family: retroawesome;
+	color: rgb(214, 153, 182);
+	font-size: xx-large;
+	margin-left: 25px;
+}
+
+.builddoc p {
+	font-family: comic;
+	color: rgb(132, 193, 146);
+	margin-left: -125px;
+	margin-top: 100px;
+}
+
+#builddoclogo {
+	width: 200px;
+	border-radius: 25px;
+	margin-left: 25px;
+}
+
+.wumpuscript {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.wumpuscript h4 {
+	font-family: retroawesome;
+	color: rgb(214, 153, 182);
+	font-size: xx-large;
+	margin-left: 25px;
+}
+
+.wumpuscript p {
+	font-family: comic;
+	color: rgb(132, 193, 146);
+	margin-left: -200px;
+	margin-top: 100px;
+}
+
+#wumpuscriptlogo {
+	width: 200px;
+	border-radius: 25px;
+	margin-left: 25px;
+}
+
+.logocontainer p {
+	font-family: comic;
+	color: rgb(132, 193, 146);
+}
+
+#logo {
+	width: 200px;
+	border-radius: 15px;
+}

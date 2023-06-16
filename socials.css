@@ -1,0 +1,69 @@
+@font-face {
+	font-family: retroawesome;
+	src: url('assets/fonts/retro60-awesome.otf') format('opentype');
+}
+
+@font-face {
+	font-family: comic;
+	src: url('assets/fonts/hey_comic.ttf') format('truetype');
+}
+
+body {
+	background-color: rgb(46, 56, 63);
+}
+
+h1, h3 {
+	text-align: center;
+	font-family: retroawesome;
+	color: rgb(192, 225, 96)
+}
+
+p {
+	font-family: comic;
+	color: rgb(132, 193, 146);
+}
+
+pre {
+	display: inline;
+	font-family: monospace;
+	color: rgb(132, 193, 146);
+	background-color: rgb(60, 52, 51);
+	padding: 2px 4px;
+	border-radius: 10px;
+}
+
+hr {
+	border-color: rgb(82, 93, 93);
+}
+
+.instagram {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#instagramlogo {
+	width: 200px;
+}
+
+.discord {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#discordlogo {
+	width: 200px;
+}
+
+.logocontainer p {
+	font-family: comic;
+	color: rgb(132, 193, 146);
+}
+
+#logo {
+	width: 200px;
+	border-radius: 15px;
+}
