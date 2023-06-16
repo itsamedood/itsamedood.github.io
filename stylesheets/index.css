@@ -1,3 +1,43 @@
-h1 {
+@font-face {
+	font-family: retroawesome;
+	src: url('../assets/fonts/retro60-awesome.otf') format('opentype');
+}
+
+body {
+	background-color: rgb(46, 56, 63);
+}
+
+h1, h3 {
 	text-align: center;
+	font-family: retroawesome;
+	/* color: rgb(214, 153, 182); */
+	color: rgb(192, 225, 96)
+}
+
+p, li {
+	text-align: center;
+	font-family: retroawesome;
+	color: rgb(132, 193, 146)
+}
+
+li {
+	margin-right: 50px;
+	list-style-position: inside;
+}
+
+hr {
+	/* border-color: rgb(132, 146, 136) */
+	border-color: rgb(82, 93, 93);
+}
+
+pre {
+	display: inline;
+	font-family: monospace;
+	background-color: rgb(60, 52, 51);
+	padding: 2px 4px;
+}
+
+#logo {
+	width: 200px;
+	border-radius: 15px;
 }
