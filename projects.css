@@ -126,6 +126,58 @@ hr {
 	margin-left: 25px;
 }
 
+.krappy {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.krappy h4 {
+	font-family: retroawesome;
+	color: rgb(214, 153, 182);
+	font-size: xx-large;
+	margin-left: 25px;
+}
+
+.krappy p {
+	font-family: comic;
+	color: rgb(132, 193, 146);
+	margin-left: -100px;
+	margin-top: 100px;
+}
+
+#krappylogo {
+	width: 200px;
+	border-radius: 25px;
+	margin-left: 25px;
+}
+
+.pitb {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.pitb h4 {
+	font-family: retroawesome;
+	color: rgb(214, 153, 182);
+	font-size: xx-large;
+	margin-left: 25px;
+}
+
+.pitb p {
+	font-family: comic;
+	color: rgb(132, 193, 146);
+	margin-left: -400px;
+	margin-top: 100px;
+}
+
+#pitblogo {
+	width: 200px;
+	border-radius: 25px;
+	margin-left: 25px;
+}
+
 .logocontainer p {
 	font-family: comic;
 	color: rgb(132, 193, 146);
