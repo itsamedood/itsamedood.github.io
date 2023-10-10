@@ -1,0 +1,63 @@
+@font-face {
+  font-family: retroawesome;
+  src: url('../assets/fonts/retro60-awesome.otf') format('opentype');
+}
+
+@font-face {
+  font-family: comic;
+  src: url('../assets/fonts/hey_comic.ttf') format('truetype');
+}
+
+body {
+  background-color: rgb(46, 56, 63);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: retroawesome;
+  color: rgb(192, 225, 96);
+}
+
+li {
+  font-family: comic;
+  color: #FFFFFFFF
+}
+
+.navbar {
+  background-color: rgb(82, 93, 93);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:4%;
+  font-family: comic;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: comic;
+}
+
+.navbar li {
+  float: left;
+  padding-left: 15px;
+  font: comic;
+  font-size: 20px;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #555;
+}
