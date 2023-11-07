@@ -14,10 +14,18 @@ body {
   background-color: rgb(46, 56, 63);
 }
 
-.mainpage h1 {
+h1, h3 {
   text-align: center;
   font-family: retroawesome;
-  color: rgb(192, 225, 96);
+  color: rgb(192, 255, 96)
+}
+
+hr {
+  border-color: rgb(82, 93, 93);
+}
+
+li {
+  color: white;
 }
 
 .navbar {
@@ -26,7 +34,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height:4%;
+  height: 4%;
   font-family: comic;
 }
 
@@ -54,4 +62,31 @@ body {
 
 .navbar li a:hover {
   background-color: #3b3838;
+}
+
+.skills ul {
+  margin-right: 25px;
+  list-style: none;
+}
+
+.skills li {
+  text-align: center;
+  font-family: comic;
+}
+
+.githubstats {
+  text-align: center;
+}
+
+.followsnstars {
+  text-align: center;
+}
+
+#me {
+  text-align: center;
+}
+
+#mylogo {
+  border-radius: 25px;
+  width: 200px;
 }

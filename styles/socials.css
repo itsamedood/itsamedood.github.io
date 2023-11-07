@@ -1,0 +1,25 @@
+pre {
+	display: inline;
+	font-family: monospace;
+  font-size: xx-large;
+	color: rgb(132, 193, 146);
+	background-color: rgb(60, 52, 51);
+	padding: 2px 4px;
+	border-radius: 10px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+}
+
+.socialtext {
+  margin-top: 65px;
+  margin-left: 25px;
+}
+
+#socialicon {
+  width: 175px;
+  height: 175px;
+  border-radius: 25px;
+}
