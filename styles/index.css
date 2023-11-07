@@ -1,3 +1,5 @@
+/* Contains both custom fonts, bg color, and navbar code. */
+
 @font-face {
   font-family: retroawesome;
   src: url('../assets/fonts/retro60-awesome.otf') format('opentype');
@@ -10,19 +12,12 @@
 
 body {
   background-color: rgb(46, 56, 63);
-  margin: 0;
-  padding: 0;
 }
 
-h1 {
+.mainpage h1 {
   text-align: center;
   font-family: retroawesome;
   color: rgb(192, 225, 96);
-}
-
-li {
-  font-family: comic;
-  color: #FFFFFFFF
 }
 
 .navbar {
@@ -54,10 +49,9 @@ li {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
 .navbar li a:hover {
-  background-color: #555;
+  background-color: #3b3838;
 }
