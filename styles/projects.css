@@ -1,0 +1,28 @@
+.project {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.project h4 {
+  font-family: comic;
+  color: rgb(214, 153, 182);
+  font-size: xx-large;
+}
+
+.project p {
+  font-family: comic;
+  color: rgb(132, 193, 146);
+}
+
+.projectinfo {
+  margin-left: 25px;
+}
+
+#projectlogo {
+  width: 200px;
+  border-radius: 25px;
+  margin-left: 25px;
+}
