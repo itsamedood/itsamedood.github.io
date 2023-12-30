@@ -24,6 +24,7 @@ body {
   width: calc(100% - 16px);
   height: calc(100% - 16px);
   background-color: #afaeae;
+  outline: none;
   margin-top: 8px;
   padding: 8px;
   box-sizing: border-box;
@@ -59,10 +60,6 @@ body {
 
 #clearButton {
   background-color: rgb(255, 87, 87);
-}
-
-#output-text {
-  font-family: comic;
 }
 
 /* #saveButton {

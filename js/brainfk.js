@@ -9,14 +9,20 @@ document.addEventListener("DOMContentLoaded", () => {
   clearButtonElement.addEventListener("click", clearButton);
   // saveButtonElement.addEventListener("click", saveButton);
 
+  /**
+   * Interprets whatever code is in the textarea.
+   */
   function runButton() {
     const output = interpretBfCode(textArea.value);
-    outputText.textContent = output;
+    outputText.value = output;
   }
 
+  /**
+   * Clears input and output.
+   */
   function clearButton() {
     textArea.value = '';
-    outputText.textContent = '';
+    outputText.value = '';
   }
 
   // function saveButton() { }
@@ -27,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
    * @returns {string} Output.
    */
   function interpretBfCode(code) {
-    const UPPER_LIMIT = 1_000_000;
+    const ITER_LIMIT = 1_000_000;
 
     let data = [0];
     let pointer = 0;
@@ -36,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let i = 0;
     let j = 0;
 
-    while (i < code.length && j < UPPER_LIMIT) {
+    while (i < code.length && j < ITER_LIMIT) {
       const char = code.charAt(i);
       switch (char) {
         case '>':
@@ -82,6 +88,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
       i++;
       j++;
+    }
+
+    if (j == ITER_LIMIT) {
+      alert("Reached ITER_LIMIT. Check for infinite loops!");
+      return '';
     }
 
     return output;
