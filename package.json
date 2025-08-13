@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "predeploy": "",
+    "deploy": "gh-pages -d bun"
+  }
+}
